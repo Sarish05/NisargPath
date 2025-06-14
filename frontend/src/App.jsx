@@ -1,14 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Contact from './components/Contact'
+import Destinations from './components/Destinations'
+import Footer from './components/Footer'
+import Gallery from './components/Gallery'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Services from './components/Services'
+import Testimonials from './components/Testimonials'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='bg-red-500'>NisargPath</div>
+      <Header/>
+      <Hero/>
+      <Destinations/>
+      <Services/>
+      <Gallery/>
+      <Testimonials/>
+      <Contact />
+      <Footer/>
     </>
   )
 }
