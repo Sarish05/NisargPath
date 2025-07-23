@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![NisargPath Logo](https://via.placeholder.com/400x200/FF7F50/FFFFFF?text=NisargPath+%F0%9F%8F%94%EF%B8%8F)
 
 *Discover the beauty of nature through carefully curated trekking experiences across India*
 
