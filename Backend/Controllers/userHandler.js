@@ -1,6 +1,11 @@
 import User from "../Models/user.js"
 import { validateToken } from "../Services/authentication.js";
+
+
+
+
 export const handleUserSignUp = async (req, res) => {
+  
   const { name, contactNumber , password , email ,  } = req.body;
   console.log({ name , contactNumber, password  , email});
   if (!name || !contactNumber || !password) {
@@ -10,6 +15,7 @@ export const handleUserSignUp = async (req, res) => {
 //   const users = await User.find({});
 //   console.log(users);
   await User.create({      //if same names as that of schema are there it can assign them directly.........
+    //triggers password hashing 
     name,
     contactNumber,
     password,
